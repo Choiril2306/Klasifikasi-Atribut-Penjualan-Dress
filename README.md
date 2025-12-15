@@ -139,24 +139,24 @@ Recall 90.91% sangat reliable untuk sistem rekomendasi.
 # 8. 🔮 Future Work
 Data : 
 - [ ] Mengumpulkan lebih banyak data
-- [✓] Menambah variasi data
-- [✓] Feature engineering lebih lanjut 
+- [x] Menambah variasi data
+- [x] Feature engineering lebih lanjut 
 
 Model :
-- [✓] Mencoba arsitektur DL yang lebih kompleks
-- [✓] Hyperparameter tuning lebih ekstensif 
+- [x] Mencoba arsitektur DL yang lebih kompleks
+- [x] Hyperparameter tuning lebih ekstensif 
 - [ ] Ensemble methods (combining models)
 - [ ] Transfer learning dengan model yang lebih besar
-- [✓] Model compression (pruning, quantization)
+- [x] Model compression (pruning, quantization)
 
 Deployment :
-- [✓] Membuat API (Flask/FastAPI) 
-- [✓] Membuat web application (Streamlit/Gradio) 
+- [x] Membuat API (Flask/FastAPI) 
+- [x] Membuat web application (Streamlit/Gradio) 
 - [ ] Containerization dengan Docker
 - [ ] Deploy ke cloud (Heroku, GCP, AWS)
 
 Optimization : 
-- [✓] Model compression (pruning, quantization)
+- [x] Model compression (pruning, quantization)
 - [ ] Improving inference speed
 - [ ] Reducing model size 
 ---
