@@ -81,7 +81,7 @@ project/
 
 ### Fitur Utama
 | Nama Fitur | Tipe Data | Deskripsi                            |Contoh Nilai                       |
-|Dress_ID    |Integer    |ID unik untuk setiap dress/item produk|1006032852, 1212192089, 1190380701 |
+|Dress_ID|Integer|ID unik untuk setiap dress/item produk|1006032852, 1212192089, 1190380701 |
 |Style |Categorical|ID unik untuk setiap dress/item produk|Sexy, Casual, Vintage, Brief, Cute |
 |Price |Categorical|Kategori harga dress|Low, Average, Medium, High, Very-High |
 |Rating |Float|Rating atau penilaian dress (skala 0-5)|4.6, 3.5, 4.0, 0.0 |
@@ -136,27 +136,27 @@ Recall 90.91% sangat reliable untuk sistem rekomendasi.
 
 # 8. 🔮 Future Work
 Data : 
-- [ ] Mengumpulkan lebih banyak data
-- [✓] Menambah variasi data
-- [✓] Feature engineering lebih lanjut 
+[ ] Mengumpulkan lebih banyak data
+[✓] Menambah variasi data
+[✓] Feature engineering lebih lanjut 
 
 Model :
-- [✓] Mencoba arsitektur DL yang lebih kompleks
-- [✓] Hyperparameter tuning lebih ekstensif 
-- [ ] Ensemble methods (combining models)
-- [ ] Transfer learning dengan model yang lebih besar
-- [✓] Model compression (pruning, quantization)
+[✓] Mencoba arsitektur DL yang lebih kompleks
+[✓] Hyperparameter tuning lebih ekstensif 
+[ ] Ensemble methods (combining models)
+[ ] Transfer learning dengan model yang lebih besar
+[✓] Model compression (pruning, quantization)
 
 Deployment :
-- [✓] Membuat API (Flask/FastAPI) 
-- [✓] Membuat web application (Streamlit/Gradio) 
-- [ ] Containerization dengan Docker
-- [ ] Deploy ke cloud (Heroku, GCP, AWS)
+[✓] Membuat API (Flask/FastAPI) 
+[✓] Membuat web application (Streamlit/Gradio) 
+[ ] Containerization dengan Docker
+[ ] Deploy ke cloud (Heroku, GCP, AWS)
 
 Optimization : 
-- [✓] Model compression (pruning, quantization)
-- [ ] Improving inference speed
-- [ ] Reducing model size 
+[✓] Model compression (pruning, quantization)
+[ ] Improving inference speed
+[ ] Reducing model size 
 
 ---
 
