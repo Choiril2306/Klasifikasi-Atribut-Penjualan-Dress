@@ -80,8 +80,8 @@ project/
 - **Tipe:** Tabular  
 
 ### Fitur Utama
-| Nama Fitur | Tipe Data | Deskripsi |Contoh Nilai |
-|Dress_ID    |Integer|ID unik untuk setiap dress/item produk|1006032852, 1212192089, 1190380701 |
+| Nama Fitur | Tipe Data | Deskripsi                            |Contoh Nilai                       |
+|Dress_ID    |Integer    |ID unik untuk setiap dress/item produk|1006032852, 1212192089, 1190380701 |
 |Style |Categorical|ID unik untuk setiap dress/item produk|Sexy, Casual, Vintage, Brief, Cute |
 |Price |Categorical|Kategori harga dress|Low, Average, Medium, High, Very-High |
 |Rating |Float|Rating atau penilaian dress (skala 0-5)|4.6, 3.5, 4.0, 0.0 |
