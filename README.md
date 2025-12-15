@@ -79,22 +79,24 @@ project/
 - **Format File:** Excel (.xlsx) – terdiri dari dua file: "Attribute DataSet.xlsx" dan "Dress Sales.xlsx", digabung berdasarkan Dress_ID
 - **Tipe:** Tabular  
 
-### Fitur Utama
-| Nama Fitur | Tipe Data | Deskripsi                            |Contoh Nilai                       |
-|Dress_ID|Integer|ID unik untuk setiap dress/item produk|1006032852, 1212192089, 1190380701 |
-|Style |Categorical|ID unik untuk setiap dress/item produk|Sexy, Casual, Vintage, Brief, Cute |
-|Price |Categorical|Kategori harga dress|Low, Average, Medium, High, Very-High |
-|Rating |Float|Rating atau penilaian dress (skala 0-5)|4.6, 3.5, 4.0, 0.0 |
-|Size |Categorical|Ukuran dress|M, L, XL, S, Free |
-|Season|Categorical|Musim yang cocok untuk dress|Autumn, Winter, Spring, Summer |
-|NeckLine |Categorical|Jenis garis leher (neckline)|O-neck, V-neck, Sweetheart, Scoop |
-|SleeveLength |Categorical|Panjang lengan|Full, Short, Sleeveless, Half |
-|Waiseline |Categorical|Jenis garis pinggang (waistline)|Natural, Empire, Dropped, Princess |
-|Material |Categorical|Bahan utama dress|Cotton, Polyester, Silk, Mix |
-|FabricType |Categorical|Jenis kain/fabric|Chiffon, Satin, Jersey, Knitted |
-|Decoration |Categorical|Elemen dekorasi pada dress|Bow, Ruffles, Embroidery, Beading |
-|Pattern Type |Categorical |Jenis pola/pattern |Solid, Print, Dot, Animal |
-|Recommendation |Binary |Label target: Apakah dress direkomendasikan (1) atau tidak (0) berdasarkan sales |0, 1 |
+## 📌 Fitur Utama Dataset Dress Sales
+
+| Nama Fitur        | Tipe Data    | Deskripsi                                                         | Contoh Nilai                                   |
+|------------------|-------------|-------------------------------------------------------------------|-----------------------------------------------|
+| Dress_ID         | Integer     | ID unik untuk setiap dress / item produk                          | 1006032852, 1212192089, 1190380701             |
+| Style            | Categorical | Gaya atau model dress                                             | Sexy, Casual, Vintage, Brief, Cute            |
+| Price            | Categorical | Kategori harga dress                                              | Low, Average, Medium, High, Very-High          |
+| Rating           | Float       | Rating atau penilaian dress (skala 0–5)                           | 4.6, 3.5, 4.0, 0.0                            |
+| Size             | Categorical | Ukuran dress                                                      | S, M, L, XL, Free                             |
+| Season           | Categorical | Musim yang cocok untuk dress                                      | Autumn, Winter, Spring, Summer                |
+| NeckLine         | Categorical | Jenis garis leher (neckline)                                      | O-neck, V-neck, Sweetheart, Scoop             |
+| SleeveLength     | Categorical | Panjang lengan                                                    | Full, Short, Sleeveless, Half                 |
+| Waistline        | Categorical | Jenis garis pinggang (waistline)                                  | Natural, Empire, Dropped, Princess            |
+| Material         | Categorical | Bahan utama dress                                                 | Cotton, Polyester, Silk, Mix                  |
+| FabricType       | Categorical | Jenis kain / fabric                                               | Chiffon, Satin, Jersey, Knitted               |
+| Decoration       | Categorical | Elemen dekorasi pada dress                                        | Bow, Ruffles, Embroidery, Beading             |
+| Pattern_Type     | Categorical | Jenis pola atau motif dress                                       | Solid, Print, Dot, Animal                     |
+| Recommendation   | Binary      | Label target: dress direkomendasikan (1) atau tidak (0)           | 0, 1                                         |
 
 ---
 
