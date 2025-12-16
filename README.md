@@ -42,7 +42,19 @@ project/
 ├── notebooks/            
 │   └── 234311036_Choiril Anwar F_ UAS Data Science.ipynb
 │
-├── src/                    # Source code
+├── src/
+│   ├── IMPORT LIBRARY.py
+│   ├── Download dan Load Data.py
+│   ├── CEK DESKRIPSI DATASET.py
+│   ├── EXPLORATORY DATA ANALYSIS (EDA).py
+│   ├── DATA CLEANING.py
+│   ├── FEATURE ENGINEERING.py
+│   ├── DATA TRANSFORMATION.py
+│   ├── DATA SPLITTING.py
+│   ├── FEATURE SELECTION.py
+│   ├── MEMISAHKAN FITUR DAN TARGET (LABEL).py
+│   ├── MODELING.py
+│   └── FEATURE IMPORTANCE.py                 
 │   
 ├── models/           
 │   ├── model_logistic_regression.pkl
@@ -62,8 +74,7 @@ project/
 │   ├── Training History (Loss).png           
 │   └── Univariate Analysis (Distribusi Setiap Fitur).png
 │
-├── requirements.txt        # Dependencies
-├── .gitignore
+├── requirements.txt       
 ├── LICENSE
 ├── Checklist Submit.md
 ├── 234311036_Choiril Anwar Fauzy_Laporan Dress Data.docx
