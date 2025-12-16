@@ -74,6 +74,7 @@ project/
 │   ├── Training History (Loss).png           
 │   └── Univariate Analysis (Distribusi Setiap Fitur).png
 │
+├── .gitignore
 ├── requirements.txt       
 ├── LICENSE
 ├── Checklist Submit.md
