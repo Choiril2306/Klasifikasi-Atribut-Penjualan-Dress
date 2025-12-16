@@ -190,3 +190,97 @@ Optimization :
 - seaborn==0.12.2
 - joblib==1.3.2
 - tabulate==0.9.0
+
+# 10. 🚀 Cara Menjalankan Proyek
+
+Panduan berikut menjelaskan cara menjalankan proyek prediksi rekomendasi dress baik secara lokal maupun menggunakan Google Colab.
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Choiril2306/Klasifikasi-Atribut-Penjualan-Dress.git
+cd Klasifikasi-Atribut-Penjualan-Dress
+```
+
+## Create Virtual Environment (Opsional)
+
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Download Dataset
+
+Unduh dataset dari UCI Machine Learning Repository: **https://archive.ics.uci.edu/dataset/289/dresses+attribute+sales**
+
+Simpan dengan struktur:
+
+```
+data/
+├── Attribute DataSet.xlsx
+└── Dress Sales.xlsx
+
+```
+
+## Running the Project
+
+### Option 1: Script Modular
+
+```bash
+python "src/IMPORT LIBRARY.py"
+python "src/Download dan Load Data.py"
+python "src/CEK DESKRIPSI DATASET.py"
+python "src/EXPLORATORY DATA ANALYSIS (EDA).py"
+python "src/DATA CLEANING.py"
+python "src/FEATURE ENGINEERING.py"
+python "src/DATA TRANSFORMATION.py"
+python "src/DATA SPLITTING.py"
+python "src/FEATURE SELECTION.py"
+python "src/MEMISAHKAN FITUR DAN TARGET (LABEL).py"
+python "src/MODELING.py"
+python "src/FEATURE IMPORTANCE.py"
+```
+
+Output model:
+
+```
+models/
+├── model_logistic_regression.pkl
+├── model_random_forest.pkl
+└── model_deep_learning(mlp).pkl
+```
+
+### Option 2: Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Buka:
+
+```
+notebooks/234311036_Choiril_Anwar_F_Data_Science.ipynb
+```
+
+### Option 3: Google Colab
+
+1. Buka **https://colab.research.google.com**
+2. Upload notebook `234311036_Choiril_Anwar_F_Data_Science.ipynb`
+3. Run All
+
+Estimasi waktu: 10–15 menit
