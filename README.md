@@ -3,8 +3,8 @@
 
 ## 👤 Informasi
 - **Nama:** CHOIRIL ANWAR FAUZY  
-- **Repo:** [...]  
-- **Video:** [...]  
+- **Repo:** https://github.com/Choiril2306/Klasifikasi-Atribut-Penjualan-Dress  
+- **Video:** https://youtu.be/28zPRi2vqHQ  
 
 ---
 
