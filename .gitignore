@@ -1,0 +1,87 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ================================
+# Virtual Environment
+# ================================
+venv/
+env/
+.venv/
+.env
+.env.*
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ================================
+# Dataset & Data Files
+# (Dataset dress sebaiknya tidak di-push)
+# ================================
+data/
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.rar
+
+# ================================
+# Trained Models (opsional)
+# ================================
+# Uncomment jika model terlalu besar (>100MB)
+# models/
+# *.pkl
+# *.joblib
+# *.h5
+# *.hdf5
+
+# ================================
+# Logs & Temporary Files
+# ================================
+*.log
+*.tmp
+*.temp
+
+# ================================
+# OS / Editor Files
+# ================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# ================================
+# Cache & Build
+# ================================
+.cache/
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Test / Coverage
+# ================================
+.coverage
+htmlcov/
+
+# ================================
+# Misc
+# ================================
+*.sqlite3
+*.db
